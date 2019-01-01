@@ -1,0 +1,71 @@
+ 
+ 
+ *{
+       margin:20;
+    	padding:20;
+
+  }
+   h1{ 
+       text-align: center;
+        padding: 20px;
+}
+ body{
+ 	background-image: url(./image/index2.jpg);
+ 	background-size: 100% 500px;
+ }
+    h2{
+    	
+    text-align: center;
+        padding: 20px;
+      }
+    
+
+   .register{
+   	background: blue;
+   	width:500px;
+   	margin: 0px auto;
+   	padding: 20px;
+   	border-radius: 20px;
+   
+   }
+   #register{
+   	margin-left: 50px;
+
+   }
+    label{
+    	 color: white;
+    	 font-size: 20px;
+    	 font-family: sans-serif;
+    	 font-style: italic;
+    }
+    #name{
+    	color: red;
+  	   border-radius: 4px;
+    }
+    #lname{
+    	color: red;
+    	 border-radius: 4px;
+    }
+    
+     #number{
+    	color: red;
+    	 border-radius: 4px;
+    
+    }
+     #email{
+    	color: red;
+    	 border-radius: 4px;
+    
+    }
+     #password{
+    	color: red;
+    	 border-radius: 4px;
+    
+    }
+     #ph{
+     	color: violet;
+     	border-radius: 3px;
+     } 
+     #submit{
+     	font-size: 30px;
+     	border-radius: 5px;
