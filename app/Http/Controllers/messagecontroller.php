@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\message;
 
 class messagecontroller extends Controller
 {
@@ -13,7 +14,16 @@ class messagecontroller extends Controller
 
       ]);
 
-      return "success";
+      $message = new message;
+     $message->name = $request->input('name');
+     $message->email =$request->input('email');
+      $message->message =$request->input('message');
 
+      $message->save();
+
+      //redirect
+
+    return redirect('home')->with('success','message sent');
+     
     }
 }
